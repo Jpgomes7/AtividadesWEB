@@ -1,1 +1,93 @@
-nibovuvouvi
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Paulo- Portifólio</title>
+  <meta name="description" content="Perfil de João Paulo, Cientista de Dados.">
+</head>
+<body>
+
+  <header>
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+  
+  <main>
+    <article>
+      <h1>João Paulo</h1>
+      <p>Cientista de Dados com foco em análise e visualização de dados.</p>
+
+      
+      
+      <section id="Sobre">
+        <h2>Sobre mim</h2>
+        <figure>
+          <img src="perfil.jpeg"
+               alt="João Paulo Perfil"
+               width="300" height="340" loading="lazy">
+          <figcaption>Estudante de analise e desenvolvimento de sistemas.</figcaption>
+        </figure>
+        <p>-Atuo no desenvolvimento de soluções de análise de dados, com foco em transformar dados em insights acionáveis.</p>
+      </section>
+
+     
+     
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Python</li>
+          <li>SQL</li>
+          <li>R</li>
+          <li>BI</li>
+          <li>Git e GitHub</li>
+        </ul>
+      </section>
+
+      <section id="formacao">
+        <h2>Formação acadêmica</h2>
+        <fieldset>
+          <legend>Formação acadêmica</legend>
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Curso</th>
+                <th scope="col">Instituição</th>
+                <th scope="col">Conclusão</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Análise e Desenvolvimento de Sistemas</th>
+                <td>IFPE</td>
+                <td>2028</td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+      </section>
+    </article>
+
+    
+    
+    
+    <aside id="contato">
+      <h2>Contato</h2>
+      <p>E-mail: <a href="mailto:joaopaulo130705@gmail.com">Mande um e-mail para mim.</a></p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; Por João Paulo</p>
+  </footer>
+
+</body>
+</html>
