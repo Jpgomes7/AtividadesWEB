@@ -1,1 +1,68 @@
-vbuvuviyv
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "description" content = "Esse é o meu portifólio de atividade WEB">
+    <title>Portifólio Atividade WEB</title>
+</head>
+<body>
+ 
+  <header>
+    <h1>Matrícula</h1>
+  </header>
+ 
+  
+  
+  <main>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+ 
+        <label for="nome">Nome completo</label>
+        <input type="text" id="nome" name="nome" required autocomplete="name">
+ 
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+ 
+        <label for="telefone">Telefone</label>
+        <input type="tel" id="telefone" name="telefone" autocomplete="tel">
+ 
+        <label for="nascimento">Data de nascimento</label>
+        <input type="date" id="nascimento" name="nascimento" required>
+      </fieldset>
+ 
+      <fieldset>
+        <legend>Dados da matrícula no IFPE</legend>
+ 
+        <label for="matricula">Número de matrícula</label>
+        <input type="text" id="matricula" name="matricula" required>
+ 
+        <label for="curso">Curso</label>
+        <select id="curso" name="curso" required>
+          <option value="">Selecione…</option>
+          <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+          <option value="redes">Redes de Computadores</option>
+          <option value="info">Técnico em Informática</option>
+        </select>
+ 
+        
+        
+        <label for="idade">Idade</label>
+        <input type="number"id="idade"name="idade"min="14"max="99">
+ 
+        <p>Turno</p>
+        <label><input type="radio" name="turno" value="manha" required>Manhã</label>
+        <label><input type="radio" name="turno" value="noite">Noite</label>
+      </fieldset>
+ 
+      <button type="submit">Enviar matrícula</button>
+  </main>
+ <br>
+ <br>
+ <br>
+  <footer>
+    <p>&copy; <time datetime="2026">2026</time> Por joão Paulo</p>
+  </footer>
+ 
+</body>
+</html>
